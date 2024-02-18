@@ -1,3 +1,13 @@
+terraform {
+  cloud {
+    organization = "angelorampersad"
+
+    workspaces {
+      name = "snowplow-aws-iglu"
+    }
+  }
+}
+
 # 0. Setup key for SSH into deployed servers
 resource "aws_key_pair" "pipeline" {
   key_name   = "${var.prefix}-iglu_server"
