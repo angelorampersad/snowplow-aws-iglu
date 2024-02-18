@@ -8,8 +8,8 @@ prefix = "sp"
 # --- Default VPC
 # Update to the VPC you would like to deploy into
 # Find your default: https://docs.aws.amazon.com/vpc/latest/userguide/default-vpc.html#view-default-vpc
-vpc_id            = "vpc-07c5b170274939a7c"
-public_subnet_ids = ["subnet-08bf0b8655f211c82", "subnet-02a319a733cbe9255", "subnet-0e30629837b0fe397"]
+vpc_id            = "vpc-0dd624210f65061b4"
+public_subnet_ids = ["subnet-01945ac0fca472812", "subnet-073fbe598e6af0ed5", "subnet-09b647a9a92df320b"]
 
 # --- SSH
 # Update this to your IP Address
