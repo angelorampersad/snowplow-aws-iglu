@@ -13,7 +13,7 @@ public_subnet_ids = ["subnet-08bf0b8655f211c82", "subnet-02a319a733cbe9255", "su
 
 # --- SSH
 # Update this to your IP Address
-ssh_ip_allowlist = ["999.999.999.999/32", "147.161.173.0/24"]
+ssh_ip_allowlist = ["147.161.173.0/24"]
 # Generate a new SSH key locally with `ssh-keygen`
 # ssh-keygen -t rsa -b 4096 
 ssh_public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQC5+Uctxp2Q8xeUTztKpIW3XqMWnmTyHjFZkbmeoQcCTLKtZJ+CLROlutqZWEy19Z1Map2tfXbo3cIghVKDrr7rXV6zM9dgmCQBPvNZivu7H3BpN8qR4h/BSSi4YsSE04+QOApp+OT+D9ToNwtUUPdzisbdgSaeYtZTj8UISsoOCUyNSxrzaJB8ye6+DLkEP5GMsl+VnMxe3VXzMHPioqPl0HDSibRzok8hm0Y8jQOB6r5tkmM4Gs8Zr1hfSIZZFvCA2kP2iS+pyzBslneGNszEepsfIseT+Kybq4RvXBpPg/tZZ/dJhtYcFx+wqQWzP8RHVGmSrwRrcxzgmHaIBbr5Qeh7azhDkPEcRYERVC1b13TPSK77vc19VN+QFAfPG+7PoJ0IsWWQ3ez7CtFKA+sO0SHq9mz89gAq1G7WIm+lPSwDzsValv2osgDn1ehnX5SY4X1B7pjult0qDfpeHMOFfKPeMH6CqNS1awALheWV0qsN7Tn8+5uCmNpLGDIg15jdfV5dpZ0IGhH/lhn9De1sWI4wQcTNCaMmWzb+y7Z8b6tsyz8ZB0wB/2FJCHIyvUpMwFmGyoc4ziPWopb1JNchLem4GogbmFehHyLguc17P8dKKTFxLrIe4X5MYe+j2VjA7gZK6teVFWPqxjWT8xWUp3UkhvEmNV+rwkLp2rQY6w== angelo.rampersad@RGD4594QPT"
